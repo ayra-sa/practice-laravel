@@ -1,0 +1,1 @@
+<a {{ $attributes }} class="{{ $active ? 'underline font-semibold' : '' }}">{{ $slot }}</a>
